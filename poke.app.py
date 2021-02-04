@@ -10,7 +10,7 @@ def maskdata(LIST):
     return dfret
 
 # Read Data
-df = pd.read_csv("C:/Users/Alexander/OneDrive/Documents/Pokemon/Pokedex-01-2021-advanced.csv", dtype=object)
+df = pd.read_csv("https://raw.githubusercontent.com/h3mps/pokemon/main/Pokedex-01-2021-advanced.csv", dtype=object)
 df.fillna('', inplace=True)
 df_P = df
 
